@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.main {
+    margin-top: 70px;
+    border-top: 1px solid rgba(0, 0, 0, 0.479);
+    /* background-color: rgb(204, 135, 45); */
+    display: flex;
+    justify-content: center;
+}
+
+.main h1 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.box {
+    width: 800px;
+    padding: 10px;
+    /* background-color: aqua; */
+
+}
+
+.box2 {
+    display: flex;
+    gap: 10px;
+}
+
+
+input,
+select {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    padding-left: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    /* text-transform: capitalize; */
+}
+/* input:hover{
+    transition: all .2s ;
+    background-color: rgba(228, 224, 224, 0.603);
+} */
+input[type="file"] {
+    /* background-color: rgb(95, 94, 0); */
+    width: 80%;
+    font-size: 15px;
+    padding: 10px 10px;
+
+}
+
+option {
+    /* background-color: aquamarine; */
+    text-transform: capitalize;
+    padding: auto 20px;
+    /* margin-right: 10px; */
+}
+
+label {
+    /* background-color: azure; */
+    font-size: 19px;
+    width: 100%;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+form {
+    margin-top: 30px;
+    font-family: "Great Vibes";
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+
+#submit {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    /* margin-left:50px ;
+    margin-right:50px ; */
+    /* background-color: beige; */
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#submit:hover{
+    cursor: pointer;
+    transition: all .2s ;
+    background-color: rgba(156, 152, 152, 0.322);
+}
+#dot {
+    color: rgb(211, 60, 60);
+    font-weight: 600;
+}
+::selection{
+    color: white;
+    background-color:rgb(211, 60, 60) ;
+}
